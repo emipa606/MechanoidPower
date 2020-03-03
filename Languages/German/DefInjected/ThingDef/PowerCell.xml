@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MPC_MechanoidPowerCell.label>Power Cell</MPC_MechanoidPowerCell.label>
+  <MPC_MechanoidPowerCell.description>Erschließt nutzbaren Strom aus einer implementierten Mechanoid Energiezelle. Sorgt für eine spürbare Wärmeentwicklung.</MPC_MechanoidPowerCell.description>
+  <MPC_MechanoidPowerCell_Blueprint.label>Power Cell (Entwurf)</MPC_MechanoidPowerCell_Blueprint.label>
+  <MPC_MechanoidPowerCell_Frame.label>Power Cell (wird gebaut)</MPC_MechanoidPowerCell_Frame.label>
+  <MPC_MechanoidPowerCell_Frame.description>Erschließt nutzbaren Strom aus einer implementierten Mechanoid Energiezelle. Produziert intensive Hitze.</MPC_MechanoidPowerCell_Frame.description>
+
+
+</LanguageData>

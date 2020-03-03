@@ -1,0 +1,7 @@
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\1.1\Assemblies\Trunken.MechanoidPower.dll
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\1.1\Assemblies\Trunken.MechanoidPower.pdb
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\Trunken.MechanoidPower\obj\Debug\Trunken.MechanoidPower.csprojAssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\Trunken.MechanoidPower\obj\Debug\Trunken.MechanoidPower.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\Trunken.MechanoidPower\obj\Debug\Trunken.MechanoidPower.csproj.CopyComplete
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\Trunken.MechanoidPower\obj\Debug\Trunken.MechanoidPower.dll
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\Trunken.MechanoidPower\obj\Debug\Trunken.MechanoidPower.pdb

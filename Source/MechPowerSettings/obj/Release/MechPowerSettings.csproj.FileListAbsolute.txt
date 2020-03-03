@@ -1,0 +1,8 @@
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\MechPowerSettings\bin\Release\MechPowerSettings.dll
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\MechPowerSettings\bin\Release\MechPowerSettings.pdb
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\MechPowerSettings\obj\Release\MechPowerSettings.csprojAssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\MechPowerSettings\obj\Release\MechPowerSettings.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\MechPowerSettings\obj\Release\MechPowerSettings.dll
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\Source\MechPowerSettings\obj\Release\MechPowerSettings.pdb
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\1.1\Assemblies\MechPowerSettings.dll
+E:\Steam\steamapps\common\RimWorld\Mods\MechanoidPowerSource\1.1\Assemblies\MechPowerSettings.pdb
