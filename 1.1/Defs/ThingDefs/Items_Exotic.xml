@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="ResourceBase">
     <defName>MPC_MechanoidPCell</defName>
     <label>Mechanoid Power Cell</label>
@@ -15,10 +14,10 @@
     <stackLimit>1</stackLimit>
     <useHitPoints>true</useHitPoints>
     <statBases>
-	  <Mass>7.5</Mass>
+      <Mass>7.5</Mass>
       <MarketValue>2000</MarketValue>
       <MaxHitPoints>1000</MaxHitPoints>
-	  <Flammability>0</Flammability>
+      <Flammability>0</Flammability>
     </statBases>
     <thingCategories>
       <li>Items</li>
@@ -28,9 +27,8 @@
       <li>Artifact</li>
       <li>ExoticMisc</li>
     </tradeTags>
-	<thingSetMakerTags>
+    <thingSetMakerTags>
       <li>RewardSpecial</li>
-	</thingSetMakerTags>
+    </thingSetMakerTags>
   </ThingDef>
-  
 </Defs>

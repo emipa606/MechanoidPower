@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MPC_PowerShipPartCrash.label>Abgestürztes Schiff (Energie)</MPC_PowerShipPartCrash.label>
   <MPC_PowerShipPartCrash.letterText>Ein großes Stück aus einem uralten Raumschiff ist in der Nähe abgestürzt. Durch den Geist deiner Kolonisten schlägt ein immer und immer wiederkehrender, schmerzhafter Impuls, der kaum zu ertragen ist!\n\nDie Pflanzen im direkten Umkreis des Schiffsteils verwelken rasch und die Luft vibriert förmlich. Eine ungeheure Energiequelle muss sich darin verbergen.</MPC_PowerShipPartCrash.letterText>
   <MPC_PowerShipPartCrash.letterLabel>Pulsierendes Schiff</MPC_PowerShipPartCrash.letterLabel>
-
 </LanguageData>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <IncidentDef>
-    <defName>MPC_PowerShipPartCrash</defName><!-- PoisonShipPartCrash -->
+    <defName>MPC_PowerShipPartCrash</defName>
+    <!-- PoisonShipPartCrash -->
     <label>ship part crash (power)</label>
-	<workerClass>IncidentWorker_PoisonShipPartCrash</workerClass>
+    <workerClass>IncidentWorker_PoisonShipPartCrash</workerClass>
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
@@ -19,11 +19,12 @@
     <refireCheckTags>
       <li>MechanoidShip</li>
     </refireCheckTags>
-	<category>ThreatBig</category> <!-- ThreatSmall ShipChunkDrop -->
+    <category>ThreatBig</category>
+    <!-- ThreatSmall ShipChunkDrop -->
     <pointsScaleable>true</pointsScaleable>
     <minThreatPoints>450</minThreatPoints>
-    <shipPart>MPC_CrashedPoisonShipPart</shipPart><!-- CrashedPoisonShipPart -->
+    <shipPart>MPC_CrashedPoisonShipPart</shipPart>
+    <!-- CrashedPoisonShipPart -->
     <tale>ShipPartCrash</tale>
   </IncidentDef>
-
 </Defs>

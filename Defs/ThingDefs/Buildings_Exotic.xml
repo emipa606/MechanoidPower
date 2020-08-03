@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
-   <ThingDef ParentName="ShipPartBase">
+  <ThingDef ParentName="ShipPartBase">
     <defName>MPC_CrashedPoisonShipPart</defName>
     <label>crashed ship part (power)</label>
     <description>A mysterious crashed piece of a spaceship. It may contain exotic materials, computers, even AI personas. This kind of technology can be dangerous.</description>
     <graphicData>
       <texPath>Things/Building/Exotic/CrashedPoisonShipPart</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <color>(176,255,248)</color> <!-- 193, 255, 193 # 173, 255, 47 # 238, 255, 184 -->
+      <color>(176,255,248)</color>
+      <!-- 193, 255, 193 # 173, 255, 47 # 238, 255, 184 -->
       <drawSize>(6,3)</drawSize>
     </graphicData>
     <killedLeavings>
@@ -16,25 +16,24 @@
       <!-- <AIPersonaCore>1</AIPersonaCore> -->
       <Steel>175</Steel>
       <Silver>425</Silver>
-	  <Plasteel>110</Plasteel>
+      <Plasteel>110</Plasteel>
       <ChunkSlagSteel>5</ChunkSlagSteel>
     </killedLeavings>
-	<comps>
-	  <li Class="Trunken_MechanoidPower.CompProperties_SnowExpandCrashWreck" />
+    <comps>
+      <li Class="Trunken_MechanoidPower.CompProperties_SnowExpandCrashWreck" />
       <li Class="CompProperties_PsychicDrone" />
       <li Class="CompProperties_AnimalInsanityPulser" />
-	  <li Class="CompProperties_PlantHarmRadius">
-	  <radiusPerDayCurve>
-      <points>
-		<li>0,5</li>
-		<li>1.5,18</li>
-		<li>6,40</li>
-		<li>20,100</li>
-	  </points>
-	  </radiusPerDayCurve>
-	  <harmFrequencyPerArea>0.015</harmFrequencyPerArea>
-	  </li>
-	</comps>
+      <li Class="CompProperties_PlantHarmRadius">
+        <radiusPerDayCurve>
+          <points>
+            <li>0,5</li>
+            <li>1.5,18</li>
+            <li>6,40</li>
+            <li>20,100</li>
+          </points>
+        </radiusPerDayCurve>
+        <harmFrequencyPerArea>0.015</harmFrequencyPerArea>
+      </li>
+    </comps>
   </ThingDef>
-
 </Defs>

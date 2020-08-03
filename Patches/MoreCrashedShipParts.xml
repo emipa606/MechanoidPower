@@ -1,61 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-
-	<!-- Power Cell Fire Ship -->
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="DolinskajaCrashedFireShipPart"]</xpath>
-		<success>Always</success>
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="DolinskajaCrashedFireShipPart"]</xpath>
-			<value>
-			  <killedLeavings>
-				<MPC_MechanoidPCell>1</MPC_MechanoidPCell>
-				<Steel>175</Steel>
-				<Silver>325</Silver>
-				<Gold>110</Gold>
-				<ComponentIndustrial>3</ComponentIndustrial>
-				<ChunkSlagSteel>5</ChunkSlagSteel>
-			  </killedLeavings>
-			</value>
-		</match>
-	</Operation>
-
-	<!-- Power Cell Lightning Ship -->
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="DolinskajaCrashedLightningShipPart"]</xpath>
-		<success>Always</success>
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="DolinskajaCrashedLightningShipPart"]</xpath>
-			<value>
-			  <killedLeavings>
-				<MPC_MechanoidPCell>1</MPC_MechanoidPCell>
-				<Steel>325</Steel>
-				<Silver>225</Silver>
-				<Gold>35</Gold>
-				<ComponentIndustrial>12</ComponentIndustrial>
-				<ChunkSlagSteel>3</ChunkSlagSteel>
-			  </killedLeavings>
-			</value>
-		</match>
-	</Operation>
-
+  <!-- Power Cell Fire Ship -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="DolinskajaCrashedFireShipPart"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DolinskajaCrashedFireShipPart"]</xpath>
+      <value>
+        <killedLeavings>
+          <MPC_MechanoidPCell>1</MPC_MechanoidPCell>
+          <Steel>175</Steel>
+          <Silver>325</Silver>
+          <Gold>110</Gold>
+          <ComponentIndustrial>3</ComponentIndustrial>
+          <ChunkSlagSteel>5</ChunkSlagSteel>
+        </killedLeavings>
+      </value>
+    </match>
+  </Operation>
+  <!-- Power Cell Lightning Ship -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="DolinskajaCrashedLightningShipPart"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DolinskajaCrashedLightningShipPart"]</xpath>
+      <value>
+        <killedLeavings>
+          <MPC_MechanoidPCell>1</MPC_MechanoidPCell>
+          <Steel>325</Steel>
+          <Silver>225</Silver>
+          <Gold>35</Gold>
+          <ComponentIndustrial>12</ComponentIndustrial>
+          <ChunkSlagSteel>3</ChunkSlagSteel>
+        </killedLeavings>
+      </value>
+    </match>
+  </Operation>
   <!-- Mod Support for More Crashed Ship Parts -->
   <Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>More Crashed Ship Parts</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<!-- AI Persona Core 2 Power Ship -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName="MPC_CrashedPoisonShipPart"]/killedLeavings</xpath>
-				<value>
-					<AIPersonaCore>1</AIPersonaCore>
-				</value>
-			</li>
-		</operations>
-	</match>
+    <mods>
+      <li>More Crashed Ship Parts</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- AI Persona Core 2 Power Ship -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MPC_CrashedPoisonShipPart"]/killedLeavings</xpath>
+          <value>
+            <AIPersonaCore>1</AIPersonaCore>
+          </value>
+        </li>
+      </operations>
+    </match>
   </Operation>
-  
 </Patch>

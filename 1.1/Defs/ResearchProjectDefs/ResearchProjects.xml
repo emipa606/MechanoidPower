@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ResearchProjectDef>
     <defName>MPC_MechanoidPowerSource</defName>
     <label>Mechanoid power source</label>
@@ -14,8 +13,7 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-	<researchViewX>12</researchViewX>
-	<researchViewY>5</researchViewY>
+    <researchViewX>12</researchViewX>
+    <researchViewY>5</researchViewY>
   </ResearchProjectDef>
-
 </Defs>

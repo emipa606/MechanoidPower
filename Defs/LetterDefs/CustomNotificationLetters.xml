@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<LetterDef>
+  <LetterDef>
     <defName>MPC_PausingThreatSmall</defName>
     <color>(204, 155, 125)</color>
     <flashColor>(255, 155, 95)</flashColor>
@@ -8,5 +8,5 @@
     <bounce>true</bounce>
     <arriveSound>LetterArrive_BadUrgent</arriveSound>
     <pauseIfPauseOnUrgentLetter>true</pauseIfPauseOnUrgentLetter>
-	</LetterDef>
+  </LetterDef>
 </Defs>

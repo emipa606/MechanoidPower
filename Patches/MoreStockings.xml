@@ -1,42 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-
-	<!-- More Warcraft -->
-	<Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Spartan Foundry Warcraft</li>
-        </mods>
-        <match Class="PatchOperationAdd">
-			<xpath>Defs/TraderKindDef[defName="Orbital_Exotic" or defName="Orbital_PirateMerchant"]/stockGenerators</xpath>
-                <value>
-					<li Class="StockGenerator_SingleDef">
-						<thingDef>MPC_MechanoidPCell</thingDef>
-						<countRange>
-							  <min>1</min>
-							  <max>4</max>
-						</countRange>
-					</li>
-            </value>
-		</match>
-    </Operation>
-
-	<!-- Early Chances -->
-	<Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Spartan Foundry Warcraft</li>
-        </mods>
-        <match Class="PatchOperationAdd">
-			<xpath>Defs/TraderKindDef[defName="Visitor_Neolithic_Standard" or defName="Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
-                <value>
-					<li Class="StockGenerator_SingleDef">
-						<thingDef>MPC_MechanoidPCell</thingDef>
-						<countRange>
-							  <min>-9</min>
-							  <max>1</max>
-						</countRange>
-					</li>
-            </value>
-		</match>
-    </Operation>
-
+  <!-- More Warcraft -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Spartan Foundry Warcraft</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/TraderKindDef[defName="Orbital_Exotic" or defName="Orbital_PirateMerchant"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>MPC_MechanoidPCell</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>4</max>
+          </countRange>
+        </li>
+      </value>
+    </match>
+  </Operation>
+  <!-- Early Chances -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Spartan Foundry Warcraft</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/TraderKindDef[defName="Visitor_Neolithic_Standard" or defName="Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_SingleDef">
+          <thingDef>MPC_MechanoidPCell</thingDef>
+          <countRange>
+            <min>-9</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </value>
+    </match>
+  </Operation>
 </Patch>
