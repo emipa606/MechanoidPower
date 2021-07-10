@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MPC_PowerShipPartCrash.label>ship part crash (power)</MPC_PowerShipPartCrash.label>
   <MPC_PowerShipPartCrash.letterText>A large piece of an ancient ship has crashed nearby.\n\nYour colonists can feel it in the back of their mind, exhorting unspeakable acts. It must have an onboard AI persona with psychic projection ability. And this AI is not friendly.\n\nDestroy it as soon as possible. But beware - it will probably defend itself.</MPC_PowerShipPartCrash.letterText>
   <MPC_PowerShipPartCrash.letterLabel>Power ship</MPC_PowerShipPartCrash.letterLabel>
-
-
 </LanguageData>

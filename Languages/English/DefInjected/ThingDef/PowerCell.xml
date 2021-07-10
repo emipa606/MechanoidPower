@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <MPC_MechanoidPowerCell.label>Power Cell</MPC_MechanoidPowerCell.label>
   <MPC_MechanoidPowerCell.description>Harnesses power from the mechanoid powercell it houses. Produces a lot of heat.</MPC_MechanoidPowerCell.description>
-
-
 </LanguageData>
