@@ -1,4 +1,7 @@
-# Changelog for MechanoidPowerSource
+# Changelog for MechanoidPower
+
+1.3.1 - Fixed correct mod-id
+
 
 1.0.4.0 - Mod updated for 1.3 and passed autotests
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Mechanoid Power (Continued)</name>
   <packageId>Mlie.MechanoidPower</packageId>
@@ -12,11 +12,11 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1723521547
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
@@ -25,7 +25,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1723521547
 	[/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Another self-sufficient supply for the energy hungry:
 
@@ -87,7 +87,7 @@ Sensei C# * Atlas
 [b]Version[/b] 1.2.1.0
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -98,4 +98,3 @@ Sensei C# * Atlas
 [/list]
 </description>
 </ModMetaData>
-
