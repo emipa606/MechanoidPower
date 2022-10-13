@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MePo.MarketValue>Power Cell market value</MePo.MarketValue>
+  <MePo.Difficulty>{0} (Influence on difficulty)</MePo.Difficulty>
+  <MePo.PowerOutput>Power Cell power output (W)</MePo.PowerOutput>
+  <MePo.Recommended>{0} (recommended: 5000W)</MePo.Recommended>
+  <MePo.ModVersion>Installed mod-version: {0}</MePo.ModVersion>
+</LanguageData>

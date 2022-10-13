@@ -1,5 +1,9 @@
 # Changelog for MechanoidPower
 
+1.4.1 - Mod updated for 1.4 and passed autotests.
+LanguageData Used DeepL to update translations for German
+
+
 1.3.1 - Fixed correct mod-id
 
 
