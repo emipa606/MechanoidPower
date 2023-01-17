@@ -1,4 +1,3 @@
-using System.Reflection;
 using Mlie;
 using RimWorld;
 using UnityEngine;
@@ -45,17 +44,7 @@ internal class MechPowerSetting : Mod
 
         var powerCellCompPropertiesPower = DefDatabase<ThingDef>.GetNamed("MPC_MechanoidPowerCell")
             .GetCompProperties<CompProperties_Power>();
-        var powerConsumptionField =
-            typeof(CompProperties_Power).GetField("basePowerConsumption",
-                BindingFlags.Instance | BindingFlags.NonPublic);
-        if (powerConsumptionField == null)
-        {
-            Log.Warning("Failed to change the poweroutput for MPC_MechanoidPowerCell");
-            return;
-        }
-
-        var originalValue = (float)powerConsumptionField.GetValue(powerCellCompPropertiesPower);
-        powerConsumptionField.SetValue(powerCellCompPropertiesPower, originalValue - MechPowerMod.poweroutput);
+        powerCellCompPropertiesPower.basePowerConsumption = MechPowerMod.poweroutput;
     }
 
     private void PushDatabase()
@@ -89,7 +78,7 @@ internal class MechPowerSetting : Mod
             }
         }
 
-        MechPowerMod.marketvalue = Widgets.HorizontalSlider(
+        MechPowerMod.marketvalue = Widgets.HorizontalSlider_NewTemp(
             new Rect(rect4.xMin + rect4.height + 10f, rect4.y, rect4.width - ((rect4.height * 2f) + 20f),
                 rect4.height), MechPowerMod.marketvalue, 500f, 4000f, true);
         if (Widgets.ButtonText(new Rect(rect4.xMax - rect4.height, rect4.y, rect4.height, rect4.height),
@@ -108,7 +97,7 @@ internal class MechPowerSetting : Mod
         var rect10 = rect8.LeftHalf().Rounded();
         var rect11 = rect8.RightHalf().Rounded();
         Widgets.Label(rect10, "MePo.PowerOutput".Translate());
-        Widgets.Label(rect11, "MePo.Recommended".Translate(MechPowerMod.poweroutput));
+        Widgets.Label(rect11, "MePo.Recommended".Translate(-MechPowerMod.poweroutput));
         if (Widgets.ButtonText(new Rect(rect9.xMin, rect9.y, rect9.height, rect9.height), "-", true, false))
         {
             if (MechPowerMod.poweroutput >= 2000f)
@@ -117,9 +106,12 @@ internal class MechPowerSetting : Mod
             }
         }
 
-        MechPowerMod.poweroutput = Widgets.HorizontalSlider(
+        var tempPower = -MechPowerMod.poweroutput;
+        tempPower = Widgets.HorizontalSlider_NewTemp(
             new Rect(rect9.xMin + rect9.height + 10f, rect9.y, rect9.width - ((rect9.height * 2f) + 20f),
-                rect9.height), MechPowerMod.poweroutput, 2000f, 20000f, true);
+                rect9.height), tempPower, 2000f, 20000f, true);
+        MechPowerMod.poweroutput = -tempPower;
+
         if (Widgets.ButtonText(new Rect(rect9.xMax - rect9.height, rect9.y, rect9.height, rect9.height),
                 "+", true, false))
         {
