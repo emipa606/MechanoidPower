@@ -72,10 +72,7 @@ internal class MechPowerSetting : Mod
         Widgets.Label(rect6, "MePo.Difficulty".Translate(MechPowerMod.marketvalue.ToStringMoney()));
         if (Widgets.ButtonText(new Rect(rect4.xMin, rect4.y, rect4.height, rect4.height), "-", true, false))
         {
-            if (MechPowerMod.marketvalue >= 500f)
-            {
-                MechPowerMod.marketvalue -= 50f;
-            }
+            MechPowerMod.marketvalue = Mathf.Max(500f, MechPowerMod.marketvalue - 50f);
         }
 
         MechPowerMod.marketvalue = Widgets.HorizontalSlider_NewTemp(
@@ -84,10 +81,7 @@ internal class MechPowerSetting : Mod
         if (Widgets.ButtonText(new Rect(rect4.xMax - rect4.height, rect4.y, rect4.height, rect4.height),
                 "+", true, false))
         {
-            if (MechPowerMod.marketvalue < 4000f)
-            {
-                MechPowerMod.marketvalue += 50f;
-            }
+            MechPowerMod.marketvalue = Mathf.Min(4000f, MechPowerMod.marketvalue + 50f);
         }
 
         listing_Standard.Gap(10f);
@@ -98,28 +92,23 @@ internal class MechPowerSetting : Mod
         var rect11 = rect8.RightHalf().Rounded();
         Widgets.Label(rect10, "MePo.PowerOutput".Translate());
         Widgets.Label(rect11, "MePo.Recommended".Translate(-MechPowerMod.poweroutput));
+        var tempPower = -MechPowerMod.poweroutput;
         if (Widgets.ButtonText(new Rect(rect9.xMin, rect9.y, rect9.height, rect9.height), "-", true, false))
         {
-            if (MechPowerMod.poweroutput >= 2000f)
-            {
-                MechPowerMod.poweroutput -= 500f;
-            }
+            tempPower = Mathf.Max(500f, tempPower - 500f);
         }
 
-        var tempPower = -MechPowerMod.poweroutput;
         tempPower = Widgets.HorizontalSlider_NewTemp(
             new Rect(rect9.xMin + rect9.height + 10f, rect9.y, rect9.width - ((rect9.height * 2f) + 20f),
                 rect9.height), tempPower, 2000f, 20000f, true);
-        MechPowerMod.poweroutput = -tempPower;
 
         if (Widgets.ButtonText(new Rect(rect9.xMax - rect9.height, rect9.y, rect9.height, rect9.height),
                 "+", true, false))
         {
-            if (MechPowerMod.poweroutput < 20000f)
-            {
-                MechPowerMod.poweroutput += 500f;
-            }
+            tempPower = Mathf.Min(20000f, tempPower + 500f);
         }
+
+        MechPowerMod.poweroutput = -tempPower;
 
         if (currentVersion != null)
         {
