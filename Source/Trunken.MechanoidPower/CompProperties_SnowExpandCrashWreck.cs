@@ -4,13 +4,13 @@ namespace Trunken_MechanoidPower;
 
 public class CompProperties_SnowExpandCrashWreck : CompProperties
 {
-    public float addAmount = 0.12f;
+    public readonly float addAmount = 0.12f;
 
-    public int expandInterval = 500;
+    public readonly int expandInterval = 500;
 
-    public float maxRadius = 55f;
+    public readonly float maxRadius = 55f;
 
-    public float maxTemperate = 30f;
+    public readonly float maxTemperate = 30f;
 
     public CompProperties_SnowExpandCrashWreck()
     {

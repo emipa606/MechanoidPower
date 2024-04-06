@@ -14,7 +14,7 @@ internal class MechPowerSetting : Mod
         LongEventHandler.ExecuteWhenFinished(GetSettings);
         LongEventHandler.ExecuteWhenFinished(PushDatabase);
         currentVersion =
-            VersionFromManifest.GetVersionFromModMetaData(ModLister.GetActiveModWithIdentifier("Mlie.MechanoidPower"));
+            VersionFromManifest.GetVersionFromModMetaData(mcp.ModMetaData);
     }
 
     public void GetSettings()
@@ -49,7 +49,6 @@ internal class MechPowerSetting : Mod
 
     private void PushDatabase()
     {
-        MechPowerMod.database = DefDatabase<ThingDef>.AllDefsListForReading;
         WriteSettings();
     }
 
@@ -75,7 +74,7 @@ internal class MechPowerSetting : Mod
             MechPowerMod.marketvalue = Mathf.Max(500f, MechPowerMod.marketvalue - 50f);
         }
 
-        MechPowerMod.marketvalue = Widgets.HorizontalSlider_NewTemp(
+        MechPowerMod.marketvalue = Widgets.HorizontalSlider(
             new Rect(rect4.xMin + rect4.height + 10f, rect4.y, rect4.width - ((rect4.height * 2f) + 20f),
                 rect4.height), MechPowerMod.marketvalue, 500f, 4000f, true);
         if (Widgets.ButtonText(new Rect(rect4.xMax - rect4.height, rect4.y, rect4.height, rect4.height),
@@ -98,7 +97,7 @@ internal class MechPowerSetting : Mod
             tempPower = Mathf.Max(500f, tempPower - 500f);
         }
 
-        tempPower = Widgets.HorizontalSlider_NewTemp(
+        tempPower = Widgets.HorizontalSlider(
             new Rect(rect9.xMin + rect9.height + 10f, rect9.y, rect9.width - ((rect9.height * 2f) + 20f),
                 rect9.height), tempPower, 2000f, 20000f, true);
 

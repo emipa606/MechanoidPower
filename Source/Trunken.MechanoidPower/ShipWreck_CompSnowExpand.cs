@@ -9,7 +9,7 @@ public class ShipWreck_CompSnowExpand : ThingComp
 {
     private const float MaxOutdoorTemp = 10f;
 
-    private static readonly HashSet<IntVec3> reachableCells = new HashSet<IntVec3>();
+    private static readonly HashSet<IntVec3> reachableCells = [];
 
     private ModuleBase snowNoise;
 

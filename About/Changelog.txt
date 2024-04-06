@@ -1,5 +1,8 @@
 # Changelog for MechanoidPower
 
+1.5.0 - updated for 1.5
+
+
 1.4.3 - Fixed power-settings buttons as well
 
 
