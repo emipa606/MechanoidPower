@@ -1,5 +1,8 @@
 # Changelog for MechanoidPower
 
+1.5.1 - Fixed the power-output issue
+
+
 1.5.0 - updated for 1.5
 
 
