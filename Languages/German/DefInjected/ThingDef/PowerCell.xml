@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <MPC_MechanoidPowerCell.label>Power Cell</MPC_MechanoidPowerCell.label>
   <MPC_MechanoidPowerCell.description>Erschließt nutzbaren Strom aus einer implementierten Mechanoid Energiezelle. Sorgt für eine spürbare Wärmeentwicklung.</MPC_MechanoidPowerCell.description>

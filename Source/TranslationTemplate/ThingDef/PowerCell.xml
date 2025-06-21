@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Power Cell -->
+  <MPC_MechanoidPowerCell.label>Power Cell</MPC_MechanoidPowerCell.label>
+  <!-- EN: Harnesses power from the mechanoid powercell it houses. Produces a lot of heat. -->
+  <MPC_MechanoidPowerCell.description>Harnesses power from the mechanoid powercell it houses. Produces a lot of heat.</MPC_MechanoidPowerCell.description>
+</LanguageData>

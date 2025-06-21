@@ -1,17 +1,15 @@
-# MechanoidPower
+# [Mechanoid Power (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2013172430)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1723521547
 
-Check out a reworked version based on this mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3041187151]Vanometric Generator by Helixien
+Check out a reworked version based on this mod: [Vanometric Generator](https://steamcommunity.com/sharedfiles/filedetails/?id=3041187151) by Helixien
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 Another self-sufficient supply for the energy hungry:
 
@@ -44,10 +42,10 @@ Prerequisites are Microelectronics, Hightech Laboratory and Multi Analyzer.
 
 
 (Even) **More Crashed Ship Parts** (New loot + Mechanoid Power Cell, when loaded before) 
-Link: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1638467041
+Link: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1638467041[/url]
 
 Get your Turret addon with **Mechanoid Master Blaster** (load this after)
-Link: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1731170217
+Link: [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1731170217[/url]
 
 # Overview
 
@@ -82,13 +80,12 @@ Sensei C# * Atlas
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2013172430]![Image](https://img.shields.io/github/v/release/emipa606/MechanoidPower?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/MechanoidPower?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2013172430) | tags:  energy

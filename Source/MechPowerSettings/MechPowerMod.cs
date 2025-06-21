@@ -4,18 +4,18 @@ namespace MechPowerSettings;
 
 internal class MechPowerMod : ModSettings
 {
-    internal static float poweroutput = -5000f;
+    internal static float Poweroutput = -5000f;
 
-    internal static float marketvalue = 2000f;
+    internal static float Marketvalue = 2000f;
 
     public override void ExposeData()
     {
         base.ExposeData();
-        Scribe_Values.Look(ref poweroutput, "powerOutput", -5000f);
-        Scribe_Values.Look(ref marketvalue, "marketValue", 2000f);
-        if (poweroutput > 0f)
+        Scribe_Values.Look(ref Poweroutput, "powerOutput", -5000f);
+        Scribe_Values.Look(ref Marketvalue, "marketValue", 2000f);
+        if (Poweroutput > 0f)
         {
-            poweroutput = -poweroutput;
+            Poweroutput = -Poweroutput;
         }
     }
 }

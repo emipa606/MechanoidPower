@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Mechanoid Power Cell -->
+  <MPC_MechanoidPCell.label>Mechanoid Power Cell</MPC_MechanoidPCell.label>
+  <!-- EN: A self sufficient powercell from a mechanoid hive ship. -->
+  <MPC_MechanoidPCell.description>A self sufficient powercell from a mechanoid hive ship.</MPC_MechanoidPCell.description>
+</LanguageData>

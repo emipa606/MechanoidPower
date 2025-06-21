@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="MechPowerSettings/MechPowerSettings.csproj" />
+  <Project Path="Trunken.MechanoidPower/Trunken.MechanoidPower.csproj" />
+</Solution>
