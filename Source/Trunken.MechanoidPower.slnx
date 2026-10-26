@@ -4,4 +4,31 @@
   </Configurations>
   <Project Path="MechPowerSettings/MechPowerSettings.csproj" />
   <Project Path="Trunken.MechanoidPower/Trunken.MechanoidPower.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Text.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/">
+    <File Path="../Patches/MoreCrashedShipParts.xml" />
+    <File Path="../Patches/MoreStockings.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/LetterDefs/">
+    <File Path="../1.7/Defs/LetterDefs/CustomNotificationLetters.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Storyteller/">
+    <File Path="../1.7/Defs/Storyteller/Incidents_Map_Threats.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/Buildings_Exotic.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Items_Exotic.xml" />
+    <File Path="../1.7/Defs/ThingDefs/PowerCell.xml" />
+  </Folder>
 </Solution>

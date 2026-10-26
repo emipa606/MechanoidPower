@@ -37,10 +37,7 @@ internal class MechPowerSetting : Mod
             break;
         }
 
-        if (first != null)
-        {
-            first.value = MechPowerMod.Marketvalue;
-        }
+        first?.value = MechPowerMod.Marketvalue;
 
         var powerCellCompPropertiesPower = DefDatabase<ThingDef>.GetNamed("MPC_MechanoidPowerCell")
             .GetCompProperties<CompProperties_Power>();
@@ -57,10 +54,10 @@ internal class MechPowerSetting : Mod
         return Static.MechPower;
     }
 
-    public override void DoSettingsWindowContents(Rect rect)
+    public override void DoSettingsWindowContents(Rect inRect)
     {
         var listingStandard = new Listing_Standard();
-        listingStandard.Begin(rect);
+        listingStandard.Begin(inRect);
         listingStandard.Gap(10f);
         var rect2 = listingStandard.GetRect(Text.LineHeight);
         var rect3 = rect2.LeftHalf().Rounded();

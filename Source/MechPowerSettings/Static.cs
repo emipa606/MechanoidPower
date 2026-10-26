@@ -1,6 +1,6 @@
 namespace MechPowerSettings;
 
-internal class Static
+internal static class Static
 {
     public static readonly string MechPower = "Mechanoid Power";
 }
